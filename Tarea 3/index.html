@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menú</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="icon" href="img/favicon.svg" />
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body id="inicio">
+    <!-- Seccion 1 -->
+
+    <header id="inicio">
+      <div class="banner_inicio section1">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start">
+              <h1 class="titulo pt-5">Donde cada sabor cuenta una historia</h1>
+              <p class="texto1">Sumérgete en una explosión de sensaciones.</p>
+              <button
+                class="wow animate__animated animate__heartBeat animate__infinite btn btn-menu mt-3"
+                onclick="location.href='#menu'"
+              >
+                Menú
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Seccion 2 -->
+
+    <div id="banner_texto" class="banner_texto text-center pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2
+              class="subtitulo1 wow animate__animated animate__swing animate__delay-2s pb-5"
+            >
+              ¡Sabores inspirados por las estaciones!
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 3 -->
+    <section id="menu" class="menu pt-5">
+      <div class="container menu_opciones pt-5">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="img text-center">
+              <img
+                src="img/img1.png"
+                alt="imagen"
+                class="img-fluid"
+                style="max-width: 100%; height: auto"
+              />
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start p-3 p-md-5"
+          >
+            <h1 class="subtitulo2 text-center text-md-start">
+              Opciones para Todos
+            </h1>
+            <p class="texto1 pt-3 text-center text-md-start">
+              ¡Tú decides qué probar hoy!
+            </p>
+          </div>
+        </div>
+
+        <div class="row text-center pt-5 iconos-menu">
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <a href="#desayunos" class="icono-enlace">
+              <img src="img/desayuno.svg" alt="Desayunos" class="icono-img" />
+              <p class="texto1">Desayunos</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <a href="#almuerzos" class="icono-enlace">
+              <img src="img/almuerzo.svg" alt="Almuerzos" class="icono-img" />
+              <p class="texto1">Almuerzos</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <a href="#cenas" class="icono-enlace">
+              <img src="img/cena.svg" alt="Cenas" class="icono-img" />
+              <p class="texto1">Cenas</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <a href="#bebidas" class="icono-enlace">
+              <img src="img/bebidas.svg" alt="Bebidas" class="icono-img" />
+              <p class="texto1">Bebidas</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <a href="#postres" class="icono-enlace">
+              <img src="img/postres.svg" alt="Postres" class="icono-img" />
+              <p class="texto1">Postres</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion 4 -->
+
+    <section id="desayunos" class="desayunos pt-5">
+      <div class="container desayunos_opciones">
+        <h2 class="subtitulo2 text-center pt-5">Desayunos</h2>
+        <p class="texto2 text-center">
+          ¡Empieza el día con energía! Explora nuestros desayunos frescos y
+          llenos de sabor para un comienzo perfecto.
+        </p>
+        <div id="desayunos-carousel" class="owl-carousel owl-theme">
+          <!-- Desayuno 1 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img1.webp" class="img-fluid" alt="Desayuno 1" />
+            <h4 class="titulo-card">Desayuno Típico</h4>
+            <p class="parrafo-card">
+              Delicioso gallo pinto acompañado de dos huevos al gusto, planatno
+              maduro, natilla, queso, salchichón, tostadas y un delicioso café o
+              jugo de naranja.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 5500 i.v.a
+            </h4>
+          </div>
+          <!-- Desayuno 2 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img2.webp" class="img-fluid" alt="Desayuno 2" />
+            <h4 class="titulo-card">Desayuno Americano</h4>
+            <p class="parrafo-card">
+              Irresistibles salchichas de desayuno servidas con huevos al gusto,
+              tostadas y palla rallada, acompañadas de un delicioso café o jugo
+              de naranja.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4500 i.v.a
+            </h4>
+          </div>
+          <!-- Desayuno 3 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img3.webp" class="img-fluid" alt="Desayuno 3" />
+            <h4 class="titulo-card">Pancakes con Huevos</h4>
+            <p class="parrafo-card">
+              Suaves pancakes dorados servidos con sirope de arce y rodajas de
+              fruta fresca, acompañados de huevos al gusto y una deliciosa
+              salchicha.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4500 i.v.a
+            </h4>
+          </div>
+          <!-- Desayuno 4 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img4.webp" class="img-fluid" alt="Desayuno 4" />
+            <h4 class="titulo-card">Desayuno Mediterráneo</h4>
+            <p class="parrafo-card">
+              Deliciosas tostadas de pan con tocino, queso cottage, albahaca y
+              tomate cherry, acompañadas de una refrescante ensalada de frutas y
+              jugo natural.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Desayuno 5 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img5.webp" class="img-fluid" alt="Desayuno 5" />
+            <h4 class="titulo-card">Tostadas con Aguacate</h4>
+            <p class="parrafo-card">
+              Tostadas de pan integral con queso y aguacate, acompañadas de un
+              toque de aceite de oliva, y un delicioso café o jugo de naranja.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 3500 i.v.a
+            </h4>
+          </div>
+          <!-- Aquí se cerró correctamente el div del quinto desayuno -->
+          <!-- Desayuno 6 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img6.webp" class="img-fluid" alt="Desayuno 6" />
+            <h4 class="titulo-card">Bowl de Avena</h4>
+            <p class="parrafo-card">
+              Cremoso bowl de avena, acompañado de frutos rojos, semillas de
+              chía y miel, perfecto para disfrutar con un delicioso café o jugo
+              fresco.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4000 i.v.a
+            </h4>
+          </div>
+          <!-- Desayuno 7 -->
+          <div class="desayuno-item text-center">
+            <img src="img/img7.webp" class="img-fluid" alt="Desayuno 7" />
+            <h4 class="titulo-card">Tostadas Francesas</h4>
+            <p class="parrafo-card">
+              Dulces tostadas francesas con miel, fresas, banano y arándanos,
+              acompañadas de una deliciosa crema batida y un café o jugo de
+              naranja.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 3500 i.v.a
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion 5 -->
+
+    <section id="almuerzos" class="almuerzos pt-5">
+      <div class="container almuerzos_opciones">
+        <h2 class="subtitulo2 text-center pt-5">Almuerzos</h2>
+        <p class="texto2 text-center">
+          Recarga tu día con almuerzos deliciosos y balanceados que llenarán tu
+          tarde de buen sabor.
+        </p>
+        <div id="almuerzos-carousel" class="owl-carousel owl-theme">
+          <!-- Almuerzo 1 -->
+          <div class="almuerzo-item text-center">
+            <img src="img/img8.webp" class="img-fluid" alt="Almuerzo 1" />
+            <h4 class="titulo-card">Casado</h4>
+            <p class="parrafo-card">
+              Delicioso casado típico servido con arroz, frijoles, plátano
+              maduro, ensalada fresca, carne de res, pollo y pescado, acompañado
+              de un sabroso café o jugo natural.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 2 -->
+          <div class="almuerzo-item text-center">
+            <img src="img/img9.webp" class="img-fluid" alt="Almuerzo 2" />
+            <h4 class="titulo-card">Rice & Beans</h4>
+            <p class="parrafo-card">
+              Auténtico arroz con frijoles caribeños, sazonado con especias,
+              coco y pimientos, servido con pescado frito o pollo, ensalada
+              fresca y un delicioso jugo de piña.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6500 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 3 -->
+          <div class="almuerzo-item text-center">
+            <img src="img/img10.webp" class="img-fluid" alt="Almuerzo 3" />
+            <h4 class="titulo-card">Olla de Carne</h4>
+            <p class="parrafo-card">
+              Sustanciosa olla de carne con trozos de res, verduras frescas,
+              yuca, plátano, elote, ayote, chayote y papa, servida con arroz
+              blanco y un refrescante jugo natural.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6500 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 4 -->
+          <div class="almuerzo-item text-center">
+            <img src="img/img11.webp" class="img-fluid" alt="Almuerzo 4" />
+            <h4 class="titulo-card">Arroz con Mariscos</h4>
+            <p class="parrafo-card">
+              Saboroso arroz con mariscos, combinado con calamares, camarones y
+              pescado fresco, acompañado de ensalada de aguacate y un delicioso
+              jugo de limón.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 8500 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 5 -->
+          <div class="almuerzo-item text-center">
+            <img src="img/img12.webp" class="img-fluid" alt="Almuerzo 5" />
+            <h4 class="titulo-card">Cortes de Carne</h4>
+            <p class="parrafo-card">
+              Deliciosos cortes de carne asada, incluyendo ribeye, filete mignon
+              y churrasco, acompañados de puré de papa y una ensalada fresca de
+              temporada.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 6-->
+          <div class="almuerzo-item text-center">
+            <img src="img/img13.webp" class="img-fluid" alt="Almuerzo 6" />
+            <h4 class="titulo-card">Pastas</h4>
+            <p class="parrafo-card">
+              Exquisitas pastas al dente, con opciones de pesto, salsa alfredo,
+              con camarones o mariscos y boloñesa, servidas con pan de ajo y una
+              ensalada fresca con aderezo.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Almuerzo 7-->
+          <div class="almuerzo-item text-center">
+            <img src="img/img14.webp" class="img-fluid" alt="Almuerzo 7" />
+            <h4 class="titulo-card">Pizzas</h4>
+            <p class="parrafo-card">
+              Irresistible pizza con masa fina, con sabores de pepperoni, cuatro
+              quesos y vegetales, acompañada de una refrescante bebida o
+              ensalada mixta.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 7500 i.v.a
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion 6 -->
+
+    <section id="cenas" class="cenas pt-5">
+      <div class="container cenas_opciones">
+        <h2 class="subtitulo2 text-center pt-5">Cenas</h2>
+        <p class="texto2 text-center">
+          Relájate y disfruta de cenas irresistibles que combinan calidad y
+          frescura en cada plato.
+        </p>
+        <div id="cenas-carousel" class="owl-carousel owl-theme">
+          <!-- Cena 1 -->
+          <div class="cena-item text-center">
+            <img src="img/img15.webp" class="img-fluid" alt="Cena 1" />
+            <h4 class="titulo-card">Cremas</h4>
+            <p class="parrafo-card">
+              Deliciosas cremas de zanahoria, champiñones, tomate, ayote y
+              espinacas, servidas con pan tostado y un toque de crema,
+              acompañadas de un jugo de frutas frescas
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4000 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 2 -->
+          <div class="cena-item text-center">
+            <img src="img/img16.webp" class="img-fluid" alt="Cena 2" />
+            <h4 class="titulo-card">Ceviche</h4>
+            <p class="parrafo-card">
+              Frescos ceviches de atún, mero y camarones, marinados en jugo de
+              limón, cebolla morada y cilantro, servidos con galletas saladas y
+              un delicioso cóctel.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 5500 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 3 -->
+          <div class="cena-item text-center">
+            <img src="img/img17.webp" class="img-fluid" alt="Cena 3" />
+            <h4 class="titulo-card">Salmón</h4>
+            <p class="parrafo-card">
+              Delicioso salmón a la plancha servido con verduras asadas, arroz
+              integral, salsa de limón, aguacate fresco, y un toque de hierbas
+              aromáticas, acompañado de un jugo natural.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 7500 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 4 -->
+          <div class="cena-item text-center">
+            <img src="img/img18.webp" class="img-fluid" alt="Cena 4" />
+            <h4 class="titulo-card">Bowl Mediterráneo</h4>
+            <p class="parrafo-card">
+              Exquisito bowl mediterráneo con quinoa, garbanzos, espinacas,
+              pimientos asados, aceitunas, y aderezo de yogur, servido con pan
+              pita y un refrescante té de hierbas helado.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6500 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 5 -->
+          <div class="cena-item text-center">
+            <img src="img/img19.webp" class="img-fluid" alt="Cena 5" />
+            <h4 class="titulo-card">Ensaladas</h4>
+            <p class="parrafo-card">
+              Variedad de ensaladas frescas, incluyendo ensalada César, ensalada
+              de atún, y ensalada griega, servidas con aderezos variados, pan
+              crujiente y un refrescante té helado.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 5500 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 6-->
+          <div class="cena-item text-center">
+            <img src="img/img20.webp" class="img-fluid" alt="Cena 6" />
+            <h4 class="titulo-card">Sushi</h4>
+            <p class="parrafo-card">
+              Delicioso sushi variado con opciones de atún, salmón, y verduras,
+              acompañado de salsa de soya, wasabi y jengibre encurtido, y un
+              refrescante té verde.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 5000 i.v.a
+            </h4>
+          </div>
+          <!-- Cena 7-->
+          <div class="cena-item text-center">
+            <img src="img/img21.webp" class="img-fluid" alt="Cena 7" />
+            <h4 class="titulo-card">Pan Bao</h4>
+            <p class="parrafo-card">
+              Suaves baos rellenos de cerdo agridulce, pollo teriyaki y verduras
+              salteadas, servidos con salsa de maní y ensalada de repollo,
+              acompañados de un té helado.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion 7 -->
+
+    <section id="bebidas" class="bebidas pt-5">
+      <div class="container bebidas_opciones">
+        <h2 class="subtitulo2 text-center pt-5">Bebidas</h2>
+        <p class="texto2 text-center">
+          Desde jugos naturales hasta cocteles creativos, nuestras bebidas
+          refrescan cada momento.
+        </p>
+        <div id="bebidas-carousel" class="owl-carousel owl-theme">
+          <!-- Bebida 1 -->
+          <div class="bebida-item text-center">
+            <img src="img/img22.webp" class="img-fluid" alt="Bebida 1" />
+            <h4 class="titulo-card">Bebidas Calientes</h4>
+            <p class="parrafo-card">
+              Calientes y reconfortantes bebidas como café americano,
+              cappuccino, té chai, chocolate caliente y matcha, acompañadas de
+              un toque de canela o vainilla para disfrutar.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 1500 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 2 -->
+          <div class="bebida-item text-center">
+            <img src="img/img23.webp" class="img-fluid" alt="Bebida 2" />
+            <h4 class="titulo-card">Jugos Naturales</h4>
+            <p class="parrafo-card">
+              Refrescantes jugos naturales elaborados con frutas frescas como
+              piña, naranja, mango y fresa, servidos fríos y sin azúcares
+              añadidos, ideales para comenzar el día con energía.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 2500 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 3 -->
+          <div class="bebida-item text-center">
+            <img src="img/img24.webp" class="img-fluid" alt="Bebida 3" />
+            <h4 class="titulo-card">Gaseosas</h4>
+            <p class="parrafo-card">
+              Variedad de gaseosas refrescantes en sabores como cola, naranja,
+              limón y uva, servidas frías con hielo, perfectas para disfrutar en
+              cualquier ocasión especial.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 1800 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 4 -->
+          <div class="bebida-item text-center">
+            <img src="img/img25.webp" class="img-fluid" alt="Bebida 4" />
+            <h4 class="titulo-card">Cervezas</h4>
+            <p class="parrafo-card">
+              Selección de cervezas artesanales y comerciales, con opciones de
+              lager, IPA, stout y ámbar, perfectas para acompañar tus comidas y
+              disfrutar con amigos.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 3500 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 5 -->
+          <div class="bebida-item text-center">
+            <img src="img/img26.webp" class="img-fluid" alt="Bebida 5" />
+            <h4 class="titulo-card">Gin Tonic</h4>
+            <p class="parrafo-card">
+              Refrescantes gin tonics elaborados con ginebras de frutas como
+              limón, fresa, y pepino, servidos con tónica, hielo y rodajas de
+              cítricos para un toque especial.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4000 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 6-->
+          <div class="bebida-item text-center">
+            <img src="img/img27.webp" class="img-fluid" alt="Bebida 6" />
+            <h4 class="titulo-card">Vino Caliente</h4>
+            <p class="parrafo-card">
+              Delicioso vino caliente especiado con canela, clavo y naranja,
+              servido tibio en tazas, ideal para disfrutar en invierno o en
+              reuniones con amigos.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 3500 i.v.a
+            </h4>
+          </div>
+          <!-- Bebida 7-->
+          <div class="bebida-item text-center">
+            <img src="img/img28.webp" class="img-fluid" alt="Bebida 7" />
+            <h4 class="titulo-card">Cocteles</h4>
+            <p class="parrafo-card">
+              Exquisitos cocteles variados como moscow mule, bloody mary,
+              mojito, margarita y piña colada, preparados con frutas frescas y
+              licores premium.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 4000 i.v.a
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion 8 -->
+
+    <section id="postres" class="postres pt-5">
+      <div class="container postres_opciones">
+        <h2 class="subtitulo2 text-center pt-5">Postres</h2>
+        <p class="texto2 text-center">
+          Dale el toque dulce a tu día con postres que despiertan los sentidos y
+          alegran el alma.
+        </p>
+        <div id="postres-carousel" class="owl-carousel owl-theme">
+          <!-- Postre 1 -->
+          <div class="postre-item text-center">
+            <img src="img/img29.webp" class="img-fluid" alt="Postre 1" />
+            <h4 class="titulo-card">Torta de Zanahoria</h4>
+            <p class="parrafo-card">
+              Esponjosa y cremosa torta de zanahoria con un toque de canela,
+              especias y nueces, cubierta con crema de queso, ideal para
+              acompañar con un café o té.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 2 -->
+          <div class="postre-item text-center">
+            <img src="img/img30.webp" class="img-fluid" alt="Postre 2" />
+            <h4 class="titulo-card">Mousse de Maracuyá</h4>
+            <p class="parrafo-card">
+              Delicado mousse de maracuyá, con sabor tropical y textura suave,
+              decorado con frutos frescos, perfecto para un postre refrescante
+              acompañado de jugo natural.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 3 -->
+          <div class="postre-item text-center">
+            <img src="img/img31.webp" class="img-fluid" alt="Postre 3" />
+            <h4 class="titulo-card">Crepa con Helado</h4>
+            <p class="parrafo-card">
+              Crepa rellena de nutella o dulce de leche servido con frutas
+              frescas y crema batida, servida con helado de vainilla, fresa o
+              chocolate, ideal para disfrutar con café.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 4 -->
+          <div class="postre-item text-center">
+            <img src="img/img32.webp" class="img-fluid" alt="Postre 4" />
+            <h4 class="titulo-card">Tartaletas</h4>
+            <p class="parrafo-card">
+              Crujientes tartaletas de frutas, limón o chocolate, elaboradas con
+              masa suave y relleno dulce, perfectas para acompañar con una
+              bebida caliente o fría.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 5 -->
+          <div class="postre-item text-center">
+            <img src="img/img33.webp" class="img-fluid" alt="Postre 5" />
+            <h4 class="titulo-card">Soufflé de Chocolate</h4>
+            <p class="parrafo-card">
+              Irresistible soufflé de chocolate fundido, con un centro suave y
+              cremoso, servido caliente y acompañado de helado o café, ideal
+              para compartir.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 6-->
+          <div class="postre-item text-center">
+            <img src="img/img34.webp" class="img-fluid" alt="Postre 6" />
+            <h4 class="titulo-card">Brownie con Helado</h4>
+            <p class="parrafo-card">
+              Delicioso brownie de chocolate crocante con trozos de nuez,
+              servido con helado de vainilla, chocolate o fresa, ideal para
+              disfrutar con un jugo o café.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+          <!-- Postre 7-->
+          <div class="postre-item text-center">
+            <img src="img/img35.webp" class="img-fluid" alt="Postre 7" />
+            <h4 class="titulo-card">Ladoo</h4>
+            <p class="parrafo-card">
+              Exquisito ladoo hecho de harina de garbanzo, pistachos, almendras,
+              cardamomo y azúcar, con textura suave, ideal para acompañar con té
+              caliente o jugo de frutas.
+            </p>
+            <h4
+              class="wow animate__animated animate__heartBeat animate__infinite infinite precio-card"
+            >
+              ₡ 6000 i.v.a
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="text-center">
+      <div class="container footer_fondo">
+        <div class="row pt-5">
+          <div class="col-md-12 pt-4">
+            <h4>Cenfotec - © 2024 Copyright</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      data-scroll
+      id="flechabtn"
+      class="goto-top"
+      href="#inicio"
+      title="ir al inicio"
+      onclick="topFunction()"
+    >
+      <img src="img/flecha.svg" class="img-fluid" alt="flecha para ur arriba" />
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/elastico.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+      new WOW().init();
+
+      document.getElementById("flechabtn").style.display = "none";
+
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 280 ||
+          document.documentElement.scrollTop > 280
+        ) {
+          document.getElementById("flechabtn").style.display = "block";
+        } else {
+          document.getElementById("flechabtn").style.display = "none";
+        }
+      };
+
+      document.getElementById("flechabtn").onclick = function (event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+
+    <!-- Scripts necesarios -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        function initializeCarousel(carouselId) {
+          $("#" + carouselId).owlCarousel({
+            items: 3,
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+              0: { items: 1 },
+              768: { items: 2 },
+              992: { items: 3 },
+            },
+            nav: true,
+            navText: [
+              "<img src='img/left1.png' class='carousel-nav' alt='Previous'>",
+              "<img src='img/right1.png' class='carousel-nav' alt='Next'>",
+            ],
+            dots: false,
+          });
+        }
+
+        // Inicializar los carruseles
+        initializeCarousel("desayunos-carousel");
+        initializeCarousel("almuerzos-carousel");
+        initializeCarousel("cenas-carousel");
+        initializeCarousel("bebidas-carousel");
+        initializeCarousel("postres-carousel");
+      });
+    </script>
+  </body>
+</html>
