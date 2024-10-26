@@ -396,6 +396,31 @@ header .row {
   height: 90px;
 }
 
+/****************************** BOTON WHATSAPP ******************************/
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  left: 15px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button img {
+  width: 45px;
+  height: 45px;
+}
+
 /*********************  Footer ******************************/
 
 #footer {
@@ -455,6 +480,12 @@ header .row {
     width: 60px;
     height: 60px;
     bottom: 145px;
+  }
+
+  .whatsapp-button {
+    width: 55px;
+    height: 55px;
+    bottom: 147px;
   }
 
   .icono-img {
