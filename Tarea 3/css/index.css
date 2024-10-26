@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #d09a00;
+}
+
+/*********************  SECTION 1 ******************************/
+header {
+  background-color: #d09a00;
+}
+
+header .banner_inicio {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(../img/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fbfff4;
+  height: 90vh;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 48% 95%, 0 75%);
+}
+
+header .row {
+  padding-top: 10%;
+}
+
+.titulo {
+  font-weight: 500;
+  font-size: 4rem;
+  color: #fbfff4;
+}
+
+.texto1 {
+  font-size: 1.5em;
+  color: #fbfff4;
+}
+
+.btn-menu {
+  background-color: #d09a00;
+  color: #fbfff4;
+  border: none;
+  font-size: 1.5em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-menu:hover {
+  background-color: #fbfff4;
+  color: #000000;
+}
+
+/*********************  SECTION 2 ******************************/
+
+.banner_texto {
+  background-color: #d09a00;
+  color: #000000;
+}
+
+.subtitulo1 {
+  font-size: 3.2rem;
+}
+
+/*********************  SECTION 3 ******************************/
+.menu {
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+
+.subtitulo2 {
+  color: #d09a00;
+  font-size: 3.2rem;
+}
+
+.text {
+  color: #fbfff4;
+  font-size: 1.5rem;
+}
+
+/* Estilos de los iconos */
+.iconos-menu .icono-enlace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d09a00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.iconos-menu .icono-enlace:hover {
+  color: #fbfff4;
+}
+
+.iconos-menu .icono-img {
+  width: 80px; /* Ajusta el tamaño de los iconos */
+  height: 80px; /* Mantén el tamaño uniforme */
+  transition: transform 0.3s ease;
+}
+
+.iconos-menu .icono-enlace:hover .icono-img {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+.iconos-menu .texto1 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #fbfff4;
+  transition: color 0.3s ease;
+  text-align: center; /* Centra el texto */
+}
+
+.iconos-menu .icono-enlace:hover .texto1 {
+  color: #d09a00;
+}
+
+/* Espaciado uniforme y centrado */
+.iconos-menu .col-6,
+.iconos-menu .col-md-4,
+.iconos-menu .col-lg-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px; /* Ajusta este valor para centrar los iconos */
+}
+
+/***********************Seccion 4**********************************/
+
+.desayuno-item {
+  height: 550px;
+  background: #d09a00;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.texto2 {
+  font-size: 1.3em;
+  color: #fbfff4;
+  padding-bottom: 80px;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #fbfff4;
+  font-size: 1.6rem;
+}
+
+.desayuno-item img {
+  border-radius: 3%;
+  width: 100%;
+}
+
+.desayunos {
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+/***********************Seccion 5**********************************/
+
+.almuerzo-item {
+  height: 550px;
+  background: #d09a00;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #fbfff4;
+  font-size: 1.6rem;
+}
+
+.almuerzo-item img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.almuerzos {
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+/***********************Seccion 6**********************************/
+
+.cena-item {
+  height: 550px;
+  background: #d09a00;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #fbfff4;
+  font-size: 1.6rem;
+}
+
+.cena-item img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cenas {
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+/***********************Seccion 7**********************************/
+
+.bebida-item {
+  height: 550px;
+  background: #d09a00;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #fbfff4;
+  font-size: 1.6rem;
+}
+
+.bebida-item img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.bebidas {
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+/***********************Seccion 8**********************************/
+.postre-item {
+  height: 550px;
+  background: #d09a00;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #fbfff4;
+  font-size: 1.6rem;
+}
+
+.postre-item img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.postres {
+  padding-bottom: 70px;
+  background-color: #000000;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+/*********************  SCROLLTOP ******************************/
+.goto-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+/*********************  Footer ******************************/
+
+#footer {
+  background-color: #000000;
+  height: 20vh;
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 40%, 52% 5%, 100% 40%, 100% 100%, 0 100%);
+}
+
+#footer h4 {
+  font-size: 1.8rem;
+  color: #fbfff4;
+  margin-top: 20px; /* Add spacing as needed */
+}
+
+/******************************* Media query para dispositivos móviles *******************************/
+@media (max-width: 767px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+
+  .texto1 {
+    font-size: 1.1em;
+  }
+
+  .subtitulo1,
+  .subtitulo2 {
+    font-size: 2.2rem;
+  }
+
+  .texto2 {
+    font-size: 1rem;
+  }
+
+  .titulo-card {
+    font-size: 1.5rem;
+  }
+
+  .parrafo-card {
+    font-size: 1rem;
+  }
+
+  .precio-card {
+    font-size: 1.3rem;
+  }
+
+  .btn-menu {
+    font-size: 1.1rem;
+  }
+
+  #footer h4 {
+    font-size: 1.2rem;
+  }
+
+  .goto-top {
+    width: 60px;
+    height: 60px;
+    bottom: 145px;
+  }
+
+  .icono-img {
+    width: 40px;
+    height: auto;
+  }
+
+  #menu .img img {
+    width: 100%;
+  }
+
+  .menu_opciones,
+  .iconos-menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
