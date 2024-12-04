@@ -1,0 +1,83 @@
+/* Extra Small devices (landscape phones, 576px and down)*/
+
+@media (max-width: 576px) {
+    /*fondo del menu responsive*/
+    .nav-link {
+        background-color: #000;
+        color: #fff !important;
+    }
+    /*colores de texot responsive*/
+    .nav-item {
+        color: #fff;
+    }
+    .card {
+        width: 80% !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .sectionOne {
+        padding-top: 200px;
+        background-size: none;
+    }
+    .sectionOne h1 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .sectionOne p {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+    .sectionTwo h2 {
+        font-weight: bold;
+        color: #bd262a;
+        font-size: 25px;
+        text-align: center !important;
+    }
+    .sectionTwo p {
+        color: #000;
+        font-size: 17px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .card {
+        width: 100% !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .sectionOne {
+        padding-top: 150px;
+        background-size: none;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .sectionOne {
+        padding-top: 250px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
