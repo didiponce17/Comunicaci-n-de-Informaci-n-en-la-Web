@@ -1,0 +1,428 @@
+            /*importacion de fuentes web */
+            
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+            html {
+                font-size: 16px;
+                overflow-x: hidden;
+            }
+            
+            h1 {
+                font-family: 'Comfortaa', cursive;
+                font-size: 3rem !important;
+            }
+            
+            h2 {
+                font-family: 'Comfortaa', cursive;
+                font-size: 3rem !important;
+            }
+            
+            p {
+                font-family: 'Open Sans', sans-serif;
+                /*se le brinda importancia para que aplique en todos los parrafos independientemente que se encuentre en un parrafo
+        de una determinada seccion*/
+                font-size: 1.2rem !important;
+            }
+            
+            a {
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+     
+
+            .btnordenar{
+             font-family: 'Open Sans', sans-serif;
+                font-size: 1.7rem !important;
+                  text-decoration: none;
+               
+            }
+
+            /*NAVEGACION SCROLLING*/
+            
+            .navigation-wrap {
+                position: fixed;
+                width: 100%;
+                left: 0;
+                z-index: 10000;
+                transition: all 0.3s ease-out;
+            }
+            
+            .navigation-wrap .nav-item {
+                /*padding: 0 0, 625rem;*/
+                transition: all 0.3s linear;
+            }
+            
+            .nav-link {
+                font-size: 1.2rem;
+                font-weight: 600;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                color: #fff;
+            }
+            
+            .nav-link:hover {
+                color: #bd262a;
+            }
+            
+            .navbar-collapse {
+                text-align: center;
+            }
+            
+            .navigation-wrap.scroll-on {
+                position: fixed;
+                background-color: #fff;
+                top: 0;
+                left: 0;
+                width: 100%;
+                box-shadow: 0 2px 28px 0 rgb(0, 0, 0, 0.09);
+                transition: all 0.15s ease-in-out 0s;
+            }
+            
+            .navigation-wrap.scroll-on .nav-link {
+                color: #000;
+            }
+            
+            .navigation-wrap.scroll-on .nav-link:hover,
+            .navigation-wrap.scroll-on .nav-link.active {
+                color: #bd262a;
+            }
+
+            /* BOTON ORDENAR*/
+            
+            .btnOrder {
+                padding: 20px;
+                background-color: #bd262a;
+                color: #fff;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            /* MENU HAMBURGUESA */
+            
+            .navbar-toggler {
+                background-color: #d6dbe3;
+                border: 2px solid #fff;
+            }
+            
+            .navbar-toggler:hover {
+                background-color: #d6dbe3;
+            }
+            
+            .custom-toggler.navbar-toggler {
+                border-color: #fff;
+            }
+            
+            .custom-toggler .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+            
+            .custom-toggler .navbar-toggler-icon:hover {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+            /*ESPACIO ENTRE SECCIONES */
+            
+            .sectionTwo {
+                padding: 150px 0 !important;
+            }
+            
+            .sectionThree {
+                padding: 150px 0 !important;
+            }
+            
+            .sectionFour {
+                padding: 150px 0 !important;
+            }
+            
+            .sectionFive {
+                padding: 150px 0 !important;
+            }
+            /* SECCIONES WEB */
+            
+            .sectionOne {
+                width: 100%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 350px 0 358px;
+                background-attachment: fixed;
+            }
+            
+            .sectionOne h1 {
+                color: #fff;
+                font-size: 55px;
+                padding-bottom: 15px;
+            }
+            
+            .sectionOne p {
+                color: #fff;
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 30px;
+            }
+            
+            .sectionTwo h2 {
+                color: #bd262a;
+                font-size: 45px;
+            }
+            /*
+    .sectionTwo p {
+        white-space: pre-line;
+        line-height: 28px;
+        color: #000;
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    */
+            
+            .sectionTwo i {
+                border-radius: 50% !important;
+                width: 6.25rem;
+                height: 6.25rem;
+                background-color: #bd262a;
+                color: #fff;
+                line-height: 6.25rem;
+                font-size: 2.1875rem;
+                margin-bottom: 1.25rem;
+            }
+            
+            .sectionTwo h3 {
+                padding-bottom: 15px;
+            }
+            
+            .sectionThree {
+                background-color: #f7f7f7;
+            }
+            
+            .sectionThree h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                font-size: 45px;
+            }
+            /*
+    .sectionThree p {
+        color: #000;
+        white-space: pre-line;
+        line-height: 28px;
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    */
+            
+            .card-title {
+                color: #bd262a;
+                font-weight: bold;
+            }
+            
+            .sectionThree .list-group-item {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            .sectionFour h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                font-size: 45px;
+            }
+            /*
+    .sectionFour .pSectionFour {
+        color: #000;
+        white-space: pre-line;
+        line-height: 28px;
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    */
+            
+            .sectionFour .list-group-item i {
+                font-size: 40px;
+                color: #bd262a;
+            }
+            /* SECCION PROMO  */
+            
+            .sectionPromo {
+                background-color: #f7f7f7;
+            }
+            
+            .divImgChef img {
+                max-width: 455px;
+                width: 100%;
+            }
+            
+            .sectionPromo h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                padding-top: 180px;
+                font-size: 45px;
+            }
+            
+            .sectionPromo p {
+                font-size: 16px;
+                line-height: 26px;
+                margin: 0px 0px 15px;
+                font-weight: 300;
+            }
+            /* SECCION TESTIMONIAL  */
+            
+            .sectionTestimonios h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                font-size: 45px;
+                text-align: center;
+            }
+            
+            .sectionTestimonios .info {
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                margin: 0px 0px 15px;
+                font-weight: 300;
+            }
+            
+            .sectionTestimonios .member {
+                box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+                padding: 30px;
+                border-radius: 10px;
+            }
+            
+            .sectionTestimonios .member .pic {
+                overflow: hidden;
+                width: 180px;
+                border-radius: 50%;
+            }
+            
+            .sectionTestimonios .member .member-info {
+                padding-left: 30px;
+            }
+            
+            .sectionTestimonios .member h4 {
+                font-weight: 700;
+                margin-bottom: 5px;
+                font-size: 20px;
+                color: #bd262a;
+            }
+            
+            .sectionTestimonios .member p {
+                margin: 10px 0 0 0;
+                font-size: 14px;
+            }
+            /* SECCION APP  */
+            
+            .divImg img {
+                max-width: 350px;
+                width: 100%;
+            }
+            
+            .sectionApp h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                font-size: 45px;
+            }
+            
+            .sectionApp p {
+                font-size: 16px;
+                line-height: 26px;
+                margin: 0px 0px 15px;
+                font-weight: 300;
+            }
+            
+            .boxInformativo {
+                padding: 40px 30px;
+                text-align: center;
+                border-radius: 10px;
+                margin-top: 30px;
+            }
+            
+            .boxInformativo h3 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+                margin: 0 0 5px;
+            }
+            
+            .boxInformativo.estilo1 {
+                background-color: #bd262a;
+            }
+            
+            .boxInformativo.estilo2 {
+                background-color: #f07114;
+            }
+            
+            .boxInformativo.estilo3 {
+                background-color: #f07114;
+            }
+            
+            .boxInformativo.estilo4 {
+                background-color: #bd262a;
+            }
+            
+            .boxInformativo span {
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 300;
+                margin: 0px;
+                line-height: 26px;
+                color: #fff;
+            }
+            
+            .sectionFive h2 {
+                padding-bottom: 20px;
+                color: #bd262a;
+                font-size: 45px;
+            }
+            /* SECCION CONTACTO  */
+            
+            .contact-form .form-group {
+                margin-bottom: 25px;
+            }
+            
+            .contact-form .form-control {
+                height: 52px;
+                border: 1px solid transparent;
+                box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 10%);
+                border-radius: 5px;
+                padding: 0 24px;
+                color: #000;
+                transition: all 0.5s ease;
+            }
+            
+            .contact-form textarea.form-control {
+                height: 200px;
+                padding-top: 12px;
+                resize: none;
+            }
+            
+            .contact-form .form-control:focus {
+                border-color: #bd262a;
+            }
+            /* SCROLLTOP  */
+            
+            .botonScrollTop {
+                position: fixed;
+                height: 45px;
+                width: 42px;
+                background-color: #bd262a;
+                right: 20px;
+                bottom: 30px;
+                text-align: center;
+                line-height: 45px;
+                color: #fff;
+                font-size: 25px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            /* PIE DE PAGINA  */
+            
+            footer {
+                background-color: #bd262a;
+            }
+            
+            footer p {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                padding-top: 15px;
+            }
