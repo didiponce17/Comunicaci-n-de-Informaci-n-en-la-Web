@@ -1,0 +1,298 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #A0B280;
+}
+
+/*********************  MENU NAV ******************************/
+
+nav {
+  background-color: #5E7959;
+  box-shadow: 5px 5px 8px #dcedc8;
+}
+
+.nav-item a {
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #CBD5BA;
+  margin: 0 10px;
+  transition: all 0.7s ease-in;
+}
+
+.nav-item a:hover {
+  color: #5E7959;
+  background-color: #CBD5BA;
+  border-radius: 5px;
+}
+/* hacemos espacio entre cada opcion del menu  */
+
+.navigation-wrap .nav-item {
+  padding: 5px 0;
+}
+
+.navbar-toggler {
+  /* le quitamos el borde que trae por defecto al icono hamburguesa  */
+  border: 2px solid #CBD5BA;
+}
+/* le decimos que no tenga sombra el icono del menu hamburguesa  */
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* estilo al icono hamburguesa  */
+
+.navbar-toggler i {
+  color: #CBD5BA;
+  font-size: 27px;
+}
+/* centra el menu cuando esta en dispositivos mas pequeños  */
+
+.navbar-nav {
+  text-align: center;
+}
+/* Estilos al dropdown */
+/* le damos estilos al menu tipo dropdown  */
+
+.dropdown-menu {
+  background-color: #fbfff4;
+  border: none;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+/*********************  SECCION 1 ******************************/
+section .banner_piel {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(../img/img3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fbfff4;
+  height: 90vh;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 95%, 0 75%);
+}
+
+section .row {
+  padding-top: 10%;
+}
+
+.titulo {
+  font-weight: 500;
+  font-size: 4rem;
+  color: #fbfff4;
+}
+
+.texto1 {
+  font-size: 1.5em;
+  color: #fbfff4;
+}
+
+/*********************  SECTION 2 ******************************/
+.banner_texto {
+  background-color: #A0B280;
+  color: #5E7959;
+}
+
+.subtitulo1 {
+  font-size: 3.2rem;
+  color: #5E7959;
+}
+
+
+/***********************Seccion 3**********************************/
+.piel-item {
+  height: 650px;
+  background: #A0B280;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.texto2 {
+  font-size: 1.3em;
+  color: #fbfff4;
+  padding-bottom: 80px;
+}
+
+.titulo-card {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #5E7959;
+}
+.parrafo-card {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: left;
+  color: #fbfff4;
+}
+
+.precio-card {
+  text-align: center;
+  margin-top: 25px;
+  color: #5E7959;
+  font-size: 1.6rem;
+}
+
+.piel-item img {
+  border-radius: 3%;
+  width: 100%;
+}
+
+.piel {
+  padding-bottom: 60px;
+  background-color: #5E7959;
+}
+
+.carousel-nav {
+  width: 85px; /* Ajusta el tamaño según lo necesites */
+  transition: background-color 0.1s;
+  margin: 0 30px;
+}
+
+.subtitulo2 {
+  font-size: 3.2rem;
+  color: #A0B280;
+}
+
+/*********************  Footer ******************************/
+
+#footer {
+  background-color: #5E7959;
+  height: 20vh;
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 40%, 50% 5%, 100% 40%, 100% 100%, 0 100%);
+}
+
+#footer h4 {
+  font-size: 1.8rem;
+  color: #fbfff4;
+  margin-top: 20px; /* Add spacing as needed */
+}
+
+/* scrolltop*/
+
+.goto-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+/* Boton Whats app*/
+.whatsapp-button {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilos Responsivos para Dispositivos Móviles (Samsung Galaxy S8+ y similares) */
+@media (max-width: 728px) {
+  
+  /* Ajuste para el título principal */
+  .titulo {
+    font-size: 2.5rem; /* Reducir el tamaño de fuente */
+  }
+
+  /* Ajuste para los subtítulos */
+  .subtitulo1,
+  .subtitulo2,
+  .subtitulo3 {
+    font-size: 1.8rem; /* Reducir tamaño de subtítulos */
+  }
+
+  #footer h4{
+    font-size: 1.3rem;
+  }
+
+  /* Ajuste para el texto principal */
+  .texto1,
+  .texto2 {
+    font-size: 1rem; /* Texto más pequeño para dispositivos móviles */
+  }
+
+  /* Botón WhatsApp más pequeño */
+  .whatsapp-button {
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 10px;
+  }
+
+  .whatsapp-button img {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* Botón Scroll to Top más pequeño */
+  .goto-top {
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+  }
+
+  /* Ajustar los márgenes y espaciado en la sección de navegación */
+  .nav-item a {
+    font-size: 15px; /* Menor tamaño de fuente para el menú en móviles */
+  }
+
+  /* Banners responsivos */
+  section.banner_piel {
+    height: 60vh; /* Reducir el tamaño del banner */
+  }
+
+  /* Mejorar espaciado interno */
+  .container-fluid1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /* Ajustar el tamaño de imágenes dentro de secciones de testimonio */
+  .testimonials.owl-carousel .owl-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Sección de inscripciones */
+  .seccionInscripcion h2 {
+    font-size: 24px; /* Reducir tamaño de fuente para dispositivos más pequeños */
+  }
+
+  /* Botón menú responsive */
+  .btn-menu {
+    font-size: 1.2em;
+  }
+}
